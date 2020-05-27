@@ -1,0 +1,92 @@
+
+.content {
+    min-height: calc(100vh - 42px);
+    font-family: 'Sarabun', sans-serif;
+}
+
+.bg-slate {
+    background-color: #212420;
+}
+
+.btn-slate {
+    background-color: #212420;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.dropdown-menu > .dropdown-item:hover {
+    background-color: #ddedd7;
+    background-image: none;
+}
+
+.footer {
+    
+    color: rgba(255, 255, 255, 0.2);
+    height: 42px;
+    font-size: 12px;
+    line-height:42px;
+    text-align: center;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+
+
+#about-me {
+    font-size: 16px;
+    padding: 30px;
+    color: white;
+}
+
+#headshot {
+    background-image: url("../images/headshot.jpg");
+    width: 100%;
+    max-width: 290px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    min-height: 268px;
+}
+
+#contact {
+    font-size: 24px;
+    text-align: right;
+    color: white;
+    min-height: 268px;
+}
+
+a {
+    color: white;
+}
+
+.image-shadow {
+    box-shadow: 1px 4px 5px 2px #777777;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.project-desc {
+    padding: 30px 30px 0px 30px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.about-me {
+    padding: 30px;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.navbar-brand {
+    font-family: 'Nothing You Could Do', cursive;
+}
